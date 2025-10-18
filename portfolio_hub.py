@@ -1,5 +1,8 @@
 import streamlit as st
 
+# MUST BE THE FIRST STREAMLIT COMMAND
+st.set_page_config(layout="wide", page_title="Lisa Silva - AI Portfolio Hub", icon="🚀")
+
 # --- LIVE URLs for Deployed Applications ---
 # These are the final, confirmed live links for your public portfolio.
 APP_LINKS = {
@@ -20,8 +23,6 @@ APP_LINKS = {
         "description": "An interactive, multi-question quiz demonstrating **complex internal logic** and session state management for tracking progress and calculating assessment results."
     }
 }
-
-st.set_page_config(layout="wide", page_title="Lisa Silva - AI Portfolio Hub", icon="🚀")
 
 st.markdown("""
     <style>

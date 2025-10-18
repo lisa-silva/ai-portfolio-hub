@@ -1,7 +1,8 @@
 import streamlit as st
 
 # MUST BE THE FIRST STREAMLIT COMMAND
-st.set_page_config(layout="wide", page_title="Lisa Silva - AI Portfolio Hub", icon="🚀")
+# Removed the 'icon="🚀"' argument to fix the 'TypeError' in older Streamlit environments
+st.set_page_config(layout="wide", page_title="Lisa Silva - AI Portfolio Hub")
 
 # --- LIVE URLs for Deployed Applications ---
 # These are the final, confirmed live links for your public portfolio.

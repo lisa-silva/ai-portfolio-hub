@@ -12,7 +12,7 @@ APP_LINKS = {
         "description": "Uses a precise **JSON Schema** to enforce structured output, ensuring the Gemini API returns machine-readable data for database entry or immediate use."
     },
     "2. The Political Fact Checker": {
-        "url": "https://lisa-silva-the-political-fact-checker-appr-app.streamlit.app/",
+        "url": "PLACE HOLDER",
         "description": "Uses **Google Search Grounding** to verify user claims against real-time web results. Demonstrates reliable, grounded AI responses."
     },
     "3. CSV Data Analyzer": {
@@ -20,7 +20,7 @@ APP_LINKS = {
         "description": "Allows users to upload a CSV file, utilizing the LLM to analyze the data's structure and generate **summaries and insights**."
     },
     "4. Dark Triad Detector Quiz": {
-        "url": "https://polisheddarktriadquiz-tmmxtafdgumdetmgboo8bz.streamlit.app/",
+        "url": "https://lisa-silva-dark-triad-v2.streamlit.app/",
         "description": "An interactive, multi-question quiz demonstrating **complex internal logic** and session state management for tracking progress and calculating assessment results."
     }
 }

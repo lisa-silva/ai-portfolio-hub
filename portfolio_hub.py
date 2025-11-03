@@ -2,7 +2,7 @@ import streamlit as st
 
 # MUST BE THE FIRST STREAMLIT COMMAND
 # Removed the 'icon="🚀"' argument to fix the 'TypeError' in older Streamlit environments
-st.set_page_config(layout="wide", page_title="Lisa Silva - AI Portfolio Hub")
+st.set_page_config(layout="wide", page_title="Lisa Silva - Portfolio Flex")
 
 # --- LIVE URLs for Deployed Applications ---
 # These are the final, confirmed live links for your public portfolio.
@@ -12,15 +12,15 @@ APP_LINKS = {
         "description": "Uses a precise **JSON Schema** to enforce structured output, ensuring the Gemini API returns machine-readable data for database entry or immediate use."
     },
     "2. The Political Fact Checker": {
-        "url": "PLACE HOLDER",
+        "url": "https://political-fact-checker-lisa-silva-v2.streamlit.app/",
         "description": "Uses **Google Search Grounding** to verify user claims against real-time web results. Demonstrates reliable, grounded AI responses."
     },
     "3. CSV Data Analyzer": {
-        "url": "https://lisa-silva-csv-data-analyzer.streamlit.app/",
+        "url": "https://csv-data-analyzer-lisa-silva.streamlit.app/",
         "description": "Allows users to upload a CSV file, utilizing the LLM to analyze the data's structure and generate **summaries and insights**."
     },
     "4. Dark Triad Detector Quiz": {
-        "url": "https://lisa-silva-dark-triad-v2.streamlit.app/",
+        "url": "https://dark-triad-detector-quiz-lisa-silva-v2.streamlit.app/",
         "description": "An interactive, multi-question quiz demonstrating **complex internal logic** and session state management for tracking progress and calculating assessment results."
     }
 }

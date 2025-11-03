@@ -11,7 +11,7 @@ GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini
 # These are the final, confirmed live links for your public portfolio.
 APP_LINKS = {
     "1. Structured AI Meal Planner (JSON)": {
-        "url": "https://lisa-silva-structured-ai-meal-planner.streamlit.app/",
+        "url": "https://structured-ai-meal-planner-lisa-silva.streamlit.app/",
         "description": "Uses a precise **JSON Schema** to enforce structured output, ensuring the Gemini API returns machine-readable data for database entry or immediate use."
     },
     "2. The Political Fact Checker": {

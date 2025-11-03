@@ -2,7 +2,10 @@ import streamlit as st
 
 # MUST BE THE FIRST STREAMLIT COMMAND
 # Removed the 'icon="🚀"' argument to fix the 'TypeError' in older Streamlit environments
-st.set_page_config(layout="wide", page_title="Lisa Silva - Portfolio Flex")
+st.set_page_config(layout="wide", page_title="Lisa Silva | Applied AI Portfolio")
+
+# This line calls the general, current model endpoint
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
 
 # --- LIVE URLs for Deployed Applications ---
 # These are the final, confirmed live links for your public portfolio.
@@ -69,7 +72,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # --- Header ---
-st.markdown('<p class="big-font">Lisa Silva | Applied AI Portfolio Hub</p>', unsafe_allow_html=True)
+st.markdown('<p class="big-font">Lisa Silva | Applied AI Portfolio</p>', unsafe_allow_html=True)
 st.markdown(
     """
     <p class="subheader-desc">
@@ -106,5 +109,5 @@ st.info(
     "These projects collectively showcase skills in real-time web grounding, structured data enforcement (JSON), data handling, and complex application logic."
 )
 st.markdown(
-    "Connect with me on [GitHub](https://github.com/lisa-silva) or [LinkedIn](your-linkedin-profile-here)!"
+    "Connect with me on [GitHub](https://github.com/lisa-silva)!"
 )
